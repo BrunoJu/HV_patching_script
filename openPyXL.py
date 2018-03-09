@@ -2,8 +2,7 @@
 #Maintenance: BrunoJu/MichaelLukeli
 #Version: 1.0
 
-#One note of this moudule: Filters and sorts can only be configured by openpyxl but will need to be applied in applications like Excel. This is because they actually rearranges or format cells or rows in the range.
-#So before using this script, please make sure you have sorted the servers by source_server in ervery sheet no matter A-Z or Z-A.
+#Before using this script, please make sure you have sorted the servers by source_server in ervery sheet no matter A-Z or Z-A.
 #It means to eliminate the in-between blank row.
 
 
@@ -22,6 +21,10 @@ wb = load_workbook(filename = 'C:\Users\c5258719\Desktop\progress_list_mar_10.xl
 
 #Initialize some Vars.
 valid_sheets=[]
+#source_server list
+s_blade_list=[]
+#target_server list
+t_blade_list=[]
 #First colum with server name
 #You must change the number if it changed in Excel.
 start_column= 8
@@ -43,15 +46,17 @@ for sheets_name in valid_sheets:
             if specified_sheet['A'+str(i)].value != None:
                 ++i
             else:
-                if i-1 > max_column:
-                    max_column = i-1
-                    specified_sheet.auto_filter.ref = "A8:O"+str(max_column)
-                    specified_sheet.auto_filter.add_sort_condition("A8:A"+str(max_column))
-                    wb.save('C:\Users\c5258719\Desktop\progress_list_mar_10.xlsx')
+                if i > max_column:
+                    max_column = i
+
+
+#                    specified_sheet.auto_filter.ref = "A8:O"+str(max_column)
+#                    specified_sheet.auto_filter.add_sort_condition("A8:A"+str(max_column))
+#                    wb.save('C:\Users\c5258719\Desktop\progress_list_mar_10.xlsx')
 
 #Trun out the vars to create ticket.
         for i in range(start_column,max_column):
             if specified_sheet['D'+str(i)].value == None and \
                 specified_sheet['C'+str(i)].value != None:
-                print specified_sheet['A'+str(i)].value
-                print specified_sheet['C'+str(i)].value
+                s_blade_list.append(specified_sheet['A'+str(i)].value)
+                t_blade_list.append(specified_sheet['C'+str(i)].value)
