@@ -19,7 +19,7 @@ valid_sheets=[]
 #First colum with server name
 #You must change the number if it changed in Excel.
 start_column= 8
-#Find the bottom of every sheet 
+#Find the bottom of every sheet
 end_column= 0
 
 
@@ -28,7 +28,7 @@ for i in wb.sheetnames:
     if i.lstrip().rstrip().lower().find('summary') + i.lstrip().rstrip().lower().find('pool')== -2:
         valid_sheets.append(i)
 
-#Get Hardware_pool source_server and target_server 
+#Get Hardware_pool source_server and target_server
 for sheets_name in valid_sheets:
         specified_sheet=wb[sheets_name]
 
@@ -46,4 +46,3 @@ for sheets_name in valid_sheets:
                 specified_sheet['C'+str(i)].value != None:
                 print specified_sheet['A'+str(i)].value
                 print specified_sheet['C'+str(i)].value
-
