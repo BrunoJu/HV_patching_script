@@ -1,23 +1,20 @@
-#ScriptAim: Create HV patching ticket automatically
-#Maintenance: BrunoJu/MichaelLukeli
+#ScriptAim: Get data from Hypervisor Excel automatically
+#Maintenance: BrunoJu
 #Version: 1.0
 
-#Before using this script, please make sure you have sorted the servers by source_server in ervery sheet no matter A-Z or Z-A.
-#It means to eliminate the in-between blank row.
-
+###################Warning##############################Warning#####################################warning###########################
+#Before using this script, please make sure you have sorted the servers by source_server in ervery sheet no matter A-Z or Z-A.       #
+#It means to eliminate the in-between blank rows, otherwise the script may not waork as you expected.                                #
+######################################################################################################################################
 
 import os,re
 from openpyxl import load_workbook
 
 
 #Insert the Work Excel you do.
-#wb = raw_input("Input one workbook with Absolute URL:")
-wb = load_workbook(filename = 'C:\Users\c5258719\Desktop\progress_list_mar_10.xlsx')
+filename = raw_input("Input Workbook with Absolute URL: ")
+wb = load_workbook(filename = filename)
 #wb = load_workbook(filename = '//DWDF219/CPS_BIT_Ops/L2/tracking/Hypervisor Patching/progress_list_mar_12.xlsx')
-
-
-#sort the Excel
-
 
 #Initialize some Vars.
 valid_sheets=[]
@@ -25,14 +22,14 @@ valid_sheets=[]
 s_blade_list=[]
 #target_server list
 t_blade_list=[]
-#First colum with server name
+#First colum with server name.
 #You must change the number if it changed in Excel.
 start_column= 8
 #Find the max column of all sheets
 max_column= 0
 
 
-#Get valid sheets list
+#Filter valid sheets list
 for i in wb.sheetnames:
     if i.lstrip().rstrip().lower().find('summary') + i.lstrip().rstrip().lower().find('pool')== -2:
         valid_sheets.append(i)
@@ -60,3 +57,8 @@ for sheets_name in valid_sheets:
                 specified_sheet['C'+str(i)].value != None:
                 s_blade_list.append(specified_sheet['A'+str(i)].value)
                 t_blade_list.append(specified_sheet['C'+str(i)].value)
+
+
+
+#Get data from Excel successfully now.
+#Please check the list if is None when using JS to create ticket.
