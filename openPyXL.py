@@ -46,7 +46,7 @@ for sheets_name in valid_sheets:
                 if i-1 > max_column:
                     max_column = i-1
                     specified_sheet.auto_filter.ref = "A8:O"+str(max_column)
-                    ws.auto_filter.add_sort_condition("A8:A"+str(max_column))
+                    specified_sheet.auto_filter.add_sort_condition("A8:A"+str(max_column))
                     wb.save('C:\Users\c5258719\Desktop\progress_list_mar_10.xlsx')
 
 #Trun out the vars to create ticket.
