@@ -1,0 +1,2 @@
+#Please replace the contents of the quotes,replacement content is your firefox profile. (Don't delete this line, thanks!)
+C:\Users\c5258641\AppData\Roaming\Mozilla\Firefox\Profiles\7870jpat.default

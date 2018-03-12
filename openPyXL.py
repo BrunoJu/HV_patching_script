@@ -12,7 +12,7 @@ from openpyxl import load_workbook
 
 
 #Insert the Work Excel you do.
-filename = raw_input("Input Workbook with Absolute URL: ")
+filename = input("Input Workbook with Absolute URL: ")
 wb = load_workbook(filename = filename)
 #wb = load_workbook(filename = '//DWDF219/CPS_BIT_Ops/L2/tracking/Hypervisor Patching/progress_list_mar_12.xlsx')
 
@@ -62,3 +62,5 @@ for sheets_name in valid_sheets:
 
 #Get data from Excel successfully now.
 #Please check the list if is None when using JS to create ticket.
+print(s_blade_list)
+print(t_blade_list)
