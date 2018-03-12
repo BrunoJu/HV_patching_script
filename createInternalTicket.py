@@ -4,6 +4,12 @@ from openpyxl import load_workbook
 from selenium import webdriver
 
 #Insert the Work Excel you do.
+
+###################Warning##############################Warning#####################################warning###########################
+#Before using this script, please make sure you have sorted the servers by source_server in ervery sheet no matter A-Z or Z-A.       #
+#It means to eliminate the in-between blank rows, otherwise the script may not waork as you expected.                                #
+######################################################################################################################################
+
 filename = input("Input Workbook with Absolute URL: ")
 wb = load_workbook(filename = filename)
 #wb = load_workbook(filename = '//DWDF219/CPS_BIT_Ops/L2/tracking/Hypervisor Patching/progress_list_mar_12.xlsx')
