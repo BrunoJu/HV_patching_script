@@ -57,6 +57,8 @@ for sheets_name in valid_sheets:
 #Get data from Excel successfully now.
 #Please check the list if is None when using JS to create ticket.
 
+print(s_blade_list)
+print(t_blade_list)
 
 #use localprofile to open firefox
 f=open('profile_directory.txt','r')
@@ -70,59 +72,60 @@ time.sleep(8)
 driver.get("https://gmp.wdf.sap.corp/cgi-bin/off_dispatch.pl/plan/user")
 time.sleep(2)
 
-#s_blade_list=['bsa7777', 'bsa8888']
-#t_blade_list=['bsa7777', 'bsa8888']
 
-#for (s_list,t_list) in zip(s_blade_list,t_blade_list):
-#	pass
-
-
-
+#javascript function
 def runJavaScript(s_blade,t_blade):
 	#the javascript
 	createTicket_js = r'''var s_blade = "'''+s_blade+'''";var t_blade = "'''+t_blade+'''";
+    s_blade = s_blade.replace(/\s/ig,'');
+    t_blade = t_blade.replace(/\s/ig,'');
 	var ticket = document.getElementsByClassName("btn btn-primary fancybox");
-	var createdEvent = document.createEvent("MouseEvents");
-	createdEvent.initMouseEvent("click", true, true);
-	ticket[0].dispatchEvent(createdEvent)
-	setTimeout(function(){
-	var internalWindow = document.getElementsByTagName("iframe")[0].contentWindow
-	var internalDocument = internalWindow.document
-	var edit = internalDocument.getElementsByClassName('editcontrol')
-	edit[3].children[0].innerText = "Hypervisor patching\\n\\nServer to patch:"+s_blade+"\\nDestination Server:"+t_blade+"\\n\\nPlease follow the documentation:\\nhttps://gmp-twiki.wdf.sap.corp/cgi-bin/twiki/bin/view/A1s/A1S_new/ServiceRequest/CrossProductsServices/HypervisorPatching"
-	edit[3].children[0].value = "Hypervisor patching\\n\\nServer to patch:"+s_blade+"\\nDestination Server:"+t_blade+"\\n\\nPlease follow the documentation:\\nhttps://gmp-twiki.wdf.sap.corp/cgi-bin/twiki/bin/view/A1s/A1S_new/ServiceRequest/CrossProductsServices/HypervisorPatching"
-	edit[1].children[0].value="M"
-	var internalDocument = document.getElementsByTagName("iframe")[0].contentWindow.document
-	var btn_search = internalDocument.getElementsByClassName("ui-button-text")
-	btn_search[3].dispatchEvent(createdEvent)
-	btn_search[5].dispatchEvent(createdEvent)
-	btn_search[3].dispatchEvent(createdEvent)
-	btn_search[9].dispatchEvent(createdEvent)
-	btn_search[5].dispatchEvent(createdEvent)
-	var inventory = internalDocument.getElementsByClassName('glyphicon glyphicon-equalizer')
-	inventory[1].dispatchEvent(createdEvent)
-	setTimeout(function(){
-	internalWindow.$('#inv_search_input').val(s_blade)
-	internalWindow.inventory_search()
-	setTimeout(function(){
-	var table = internalDocument.getElementsByClassName("display table table-striped table-bordered table-hover table-condensed dataTable")
-	var input_SName = table[0].getElementsByTagName("input")[1]
-	input_SName.checked=true
-	internalWindow.inventory_select()
-	setTimeout(function(){
-	internalWindow.suggest_field_for_inventory("area")
-	internalWindow.suggest_field_for_inventory("landscape")
-	internalWindow.suggest_field_for_inventory("usage_area")
-	setTimeout(function(){
-	internalWindow.save_base()
-	},7000)
-	},3000)
-	},15000)
-	},8000)
-	},8000)
+    var createdEvent = document.createEvent("MouseEvents");
+    createdEvent.initMouseEvent("click", true, true);
+    ticket[0].dispatchEvent(createdEvent)
+    setTimeout(function(){
+    var internalWindow = document.getElementsByTagName("iframe")[0].contentWindow
+    var internalDocument = internalWindow.document
+    var edit = internalDocument.getElementsByClassName('editcontrol')
+    edit[3].children[0].innerText = "Hypervisor patching\\n\\nServer to patch:"+s_blade+"\\nDestination Server:"+t_blade+"\\n\\nPlease follow the documentation:\\nhttps://gmp-twiki.wdf.sap.corp/cgi-bin/twiki/bin/view/A1s/A1S_new/ServiceRequest/CrossProductsServices/HypervisorPatching"
+    edit[3].children[0].value = "Hypervisor patching\\n\\nServer to patch:"+s_blade+"\\nDestination Server:"+t_blade+"\\n\\nPlease follow the documentation:\\nhttps://gmp-twiki.wdf.sap.corp/cgi-bin/twiki/bin/view/A1s/A1S_new/ServiceRequest/CrossProductsServices/HypervisorPatching"
+    edit[1].children[0].value="M"
+    var internalDocument = document.getElementsByTagName("iframe")[0].contentWindow.document
+    var btn_search = internalDocument.getElementsByClassName("ui-button-text")
+    btn_search[3].dispatchEvent(createdEvent)
+    btn_search[5].dispatchEvent(createdEvent)
+    btn_search[3].dispatchEvent(createdEvent)
+    btn_search[9].dispatchEvent(createdEvent)
+    btn_search[5].dispatchEvent(createdEvent)
+    var inventory = internalDocument.getElementsByClassName('glyphicon glyphicon-equalizer')
+    inventory[1].dispatchEvent(createdEvent)
+    setTimeout(function(){
+    internalWindow.$('#inv_search_input').val(s_blade)
+    internalWindow.inventory_search()
+    setTimeout(function(){
+    var table = internalDocument.getElementsByClassName("display table table-striped table-bordered table-hover table-condensed dataTable")
+    if(s_blade.indexOf("rsa")==0){
+    var input_SName = table[1].getElementsByTagName("input")[1]
+    }else{
+    var input_SName = table[0].getElementsByTagName("input")[1]
+    }
+    input_SName.checked=true
+    internalWindow.inventory_select()
+    setTimeout(function(){
+    internalWindow.suggest_field_for_inventory("area")
+    internalWindow.suggest_field_for_inventory("landscape")
+    internalWindow.suggest_field_for_inventory("usage_area")
+    setTimeout(function(){
+    internalWindow.save_base()
+    },7000)
+    },3000)
+    },15000)
+    },8000)
+    },8000)
 	'''
 	driver.execute_script(createTicket_js)
 
+#main function
 if len(s_blade_list) != 0:
 	for (s_blade, t_blade) in zip(s_blade_list,t_blade_list):
 		runJavaScript(s_blade,t_blade)
