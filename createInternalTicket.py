@@ -131,4 +131,6 @@ if len(s_blade_list) != 0:
 		runJavaScript(s_blade,t_blade)
 		time.sleep(60)
 else:
-	print("Error")
+	print("Can't find source server, please retry !")
+
+driver.quit()
