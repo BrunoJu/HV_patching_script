@@ -2,6 +2,8 @@
 import os,re,time
 from openpyxl import load_workbook
 from selenium import webdriver
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.support.wait import WebDriverWait
 
 #Insert the Work Excel you do.
 
@@ -61,16 +63,25 @@ print(s_blade_list)
 print(t_blade_list)
 
 #use localprofile to open firefox
+gmp_index_boolean = False
+gmp_ticket_boolean = False
 f=open('profile_directory.txt','r')
 s=f.readlines()
 #profile_directory = r'C:\Users\c5258641\AppData\Roaming\Mozilla\Firefox\Profiles\7870jpat.default'
 profile_directory=s[1]
 profile = webdriver.FirefoxProfile(profile_directory)
 driver = webdriver.Firefox(profile)
-driver.get("https://gmp.wdf.sap.corp/")
-time.sleep(8)
-driver.get("https://gmp.wdf.sap.corp/cgi-bin/off_dispatch.pl/plan/user")
-time.sleep(2)
+
+while(gmp_index_boolean == False | gmp_ticket_boolean == False):
+	driver.get("https://gmp.wdf.sap.corp/")
+	index_boolean = WebDriverWait(driver,15).until(EC.title_is(u"GMP - Portal"))
+	gmp_index_boolean = index_boolean
+	time.sleep(5)
+	driver.get("https://gmp.wdf.sap.corp/cgi-bin/off_dispatch.pl/plan/user")
+	ticket_boolean = WebDriverWait(driver,10).until(EC.title_is(u"GMP - Personal Worklist"))
+	gmp_ticket_boolean = ticket_boolean
+
+print("Page Finishes Loading")
 
 
 #javascript function
@@ -116,7 +127,7 @@ def runJavaScript(s_blade,t_blade):
     internalWindow.suggest_field_for_inventory("landscape")
     internalWindow.suggest_field_for_inventory("usage_area")
     setTimeout(function(){
-    internalWindow.save_base()
+    //internalWindow.save_base()
     },7000)
     },3000)
     },15000)
