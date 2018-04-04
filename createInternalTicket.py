@@ -127,7 +127,7 @@ def runJavaScript(s_blade,t_blade):
     internalWindow.suggest_field_for_inventory("landscape")
     internalWindow.suggest_field_for_inventory("usage_area")
     setTimeout(function(){
-    //internalWindow.save_base()
+    internalWindow.save_base()
     },7000)
     },3000)
     },15000)
