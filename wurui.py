@@ -9,8 +9,7 @@ from selenium.webdriver.support.wait import WebDriverWait
 f=open('profile_directory.txt','r')
 s=f.readlines()
 #修改这个的profile路径
-#profile_directory = r'C:\Users\c5258641\AppData\Roaming\Mozilla\Firefox\Profiles\7870jpat.default'
-profile_directory=s[1]
+profile_directory = r'C:\Users\c5258641\AppData\Roaming\Mozilla\Firefox\Profiles\7870jpat.default'
 profile = webdriver.FirefoxProfile(profile_directory)
 driver = webdriver.Firefox(profile)
 
