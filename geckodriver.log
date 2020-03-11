@@ -5554,3 +5554,1345 @@ JavaScript error: chrome://browser/content/browser.js, line 8449: TypeError: gBr
 
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
+1581486016099	geckodriver	INFO	geckodriver 0.19.1
+1581486016113	geckodriver	INFO	Listening on 127.0.0.1:6568
+1581486021057	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\zhuwq\\AppData\\Local\\Temp\\rust_mozprofile.f3bJwCgtg6xx"
+1581486021669	Marionette	TRACE	Received observer notification profile-after-change
+1581486021711	Marionette	TRACE	Received observer notification command-line-startup
+1581486021712	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+1581486022340	addons.webextension.switchyomega@feliscatus.addons.mozilla.org	WARN	Loading extension 'switchyomega@feliscatus.addons.mozilla.org': Reading manifest: Warning processing key: An unexpected property was found in the WebExtension manifest.
+1581486022340	addons.webextension.switchyomega@feliscatus.addons.mozilla.org	WARN	Loading extension 'switchyomega@feliscatus.addons.mozilla.org': Reading manifest: Warning processing options_page: An unexpected property was found in the WebExtension manifest.
+1581486023035	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Warning processing key: An unexpected property was found in the WebExtension manifest.
+1581486023035	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Warning processing options_page: An unexpected property was found in the WebExtension manifest.
+1581486023186	Marionette	TRACE	Received observer notification marionette-startup-requested
+1581486023186	Marionette	TRACE	Waiting until startup recorder finished recording startup scripts...
+1581486023202	Marionette	TRACE	All scripts recorded.
+1581486023202	Marionette	DEBUG	Setting recommended pref app.normandy.api_url to 
+1581486023202	Marionette	DEBUG	Setting recommended pref app.update.disabledForTesting to true
+1581486023203	Marionette	DEBUG	Setting recommended pref browser.contentblocking.introCount to 99
+1581486023203	Marionette	DEBUG	Setting recommended pref browser.tabs.remote.separatePrivilegedContentProcess to false
+1581486023203	Marionette	DEBUG	Setting recommended pref browser.tabs.unloadOnLowMemory to false
+1581486023203	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1581486023203	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1581486023204	Marionette	DEBUG	Setting recommended pref dom.push.connection.enabled to false
+1581486023204	Marionette	DEBUG	Setting recommended pref privacy.trackingprotection.enabled to false
+1581486023204	Marionette	DEBUG	Setting recommended pref security.certerrors.mitm.priming.enabled to false
+1581486023204	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1581486023241	Marionette	INFO	Listening on port 6579
+1581486023242	Marionette	DEBUG	Marionette is listening
+Log warning: The log 'Services.Common.RESTRequest' is configured to use the preference 'services.common.log.logger.rest.request' - you must adjust the level by setting this preference, not by using the level setter
+JavaScript warning: moz-extension://ed9222bb-0d9f-4ed1-8b94-b2125d577d69/js/omega_target.min.js, line 4906: unreachable code after return statement
+JavaScript warning: moz-extension://ed9222bb-0d9f-4ed1-8b94-b2125d577d69/js/omega_target.min.js, line 4906: unreachable code after return statement
+1581486023586	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:6587
+1581486023588	Marionette	DEBUG	0 -> [0,1,"newSession",{"acceptInsecureCerts":true,"browserName":"firefox","capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}]
+1581486023588	Marionette	DEBUG	0 <- [1,1,{"error":"unknown command","message":"newSession","stacktrace":"WebDriverError@chrome://marionette/content/error.js:175: ... t@chrome://marionette/content/server.js:249:9\n_onJSONObjectReady/<@chrome://marionette/content/transport.js:501:20\n"},null]
+1581486023594	Marionette	DEBUG	Closed connection 0
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 108: Error: sendRemoveListener on closed conduit switchyomega@feliscatus.addons.mozilla.org.274877906957
+1581486623793	Marionette	TRACE	Received observer notification xpcom-will-shutdown
+1581486623793	Marionette	DEBUG	Resetting recommended pref app.normandy.api_url
+1581486623794	Marionette	DEBUG	Resetting recommended pref app.update.disabledForTesting
+1581486623794	Marionette	DEBUG	Resetting recommended pref browser.contentblocking.introCount
+1581486623794	Marionette	DEBUG	Resetting recommended pref browser.tabs.remote.separatePrivilegedContentProcess
+1581486623794	Marionette	DEBUG	Resetting recommended pref browser.tabs.unloadOnLowMemory
+1581486623794	Marionette	DEBUG	Resetting recommended pref datareporting.policy.dataSubmissionPolicyAccepted
+1581486623794	Marionette	DEBUG	Resetting recommended pref dom.disable_beforeunload
+1581486623794	Marionette	DEBUG	Resetting recommended pref dom.push.connection.enabled
+1581486623794	Marionette	DEBUG	Resetting recommended pref privacy.trackingprotection.enabled
+1581486623794	Marionette	DEBUG	Resetting recommended pref security.certerrors.mitm.priming.enabled
+1581486623795	Marionette	DEBUG	Resetting recommended pref toolkit.cosmeticAnimations.enabled
+1581486623795	Marionette	INFO	Stopped listening on port 6579
+1581486623795	Marionette	DEBUG	Marionette stopped listening
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+tup recorder finished recording startup scripts...
+1581486150301	Marionette	TRACE	All scripts recorded.
+1581486150301	Marionette	DEBUG	Setting recommended pref app.normandy.api_url to 
+1581486150302	Marionette	DEBUG	Setting recommended pref app.update.disabledForTesting to true
+1581486150302	Marionette	DEBUG	Setting recommended pref browser.contentblocking.introCount to 99
+1581486150302	Marionette	DEBUG	Setting recommended pref browser.tabs.remote.separatePrivilegedContentProcess to false
+1581486150302	Marionette	DEBUG	Setting recommended pref browser.tabs.unloadOnLowMemory to false
+1581486150303	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1581486150303	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1581486150303	Marionette	DEBUG	Setting recommended pref dom.push.connection.enabled to false
+1581486150303	Marionette	DEBUG	Setting recommended pref privacy.trackingprotection.enabled to false
+1581486150303	Marionette	DEBUG	Setting recommended pref security.certerrors.mitm.priming.enabled to false
+1581486150304	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1581486150339	Marionette	INFO	Listening on port 6713
+1581486150339	Marionette	DEBUG	Marionette is listening
+Log warning: The log 'Services.Common.RESTRequest' is configured to use the preference 'services.common.log.logger.rest.request' - you must adjust the level by setting this preference, not by using the level setter
+JavaScript warning: moz-extension://ed9222bb-0d9f-4ed1-8b94-b2125d577d69/js/omega_target.min.js, line 4906: unreachable code after return statement
+JavaScript warning: moz-extension://ed9222bb-0d9f-4ed1-8b94-b2125d577d69/js/omega_target.min.js, line 4906: unreachable code after return statement
+1581486150764	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:6721
+1581486150768	Marionette	DEBUG	0 -> [0,1,"newSession",{"acceptInsecureCerts":true,"browserName":"firefox","capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}]
+1581486150768	Marionette	DEBUG	0 <- [1,1,{"error":"unknown command","message":"newSession","stacktrace":"WebDriverError@chrome://marionette/content/error.js:175: ... t@chrome://marionette/content/server.js:249:9\n_onJSONObjectReady/<@chrome://marionette/content/transport.js:501:20\n"},null]
+1581486150774	Marionette	DEBUG	Closed connection 0
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 108: Error: sendRemoveListener on closed conduit switchyomega@feliscatus.addons.mozilla.org.274877906957
+1581486620727	Marionette	TRACE	Received observer notification xpcom-will-shutdown
+1581486620727	Marionette	DEBUG	Resetting recommended pref app.normandy.api_url
+1581486620728	Marionette	DEBUG	Resetting recommended pref app.update.disabledForTesting
+1581486620728	Marionette	DEBUG	Resetting recommended pref browser.contentblocking.introCount
+1581486620728	Marionette	DEBUG	Resetting recommended pref browser.tabs.remote.separatePrivilegedContentProcess
+1581486620728	Marionette	DEBUG	Resetting recommended pref browser.tabs.unloadOnLowMemory
+1581486620728	Marionette	DEBUG	Resetting recommended pref datareporting.policy.dataSubmissionPolicyAccepted
+1581486620728	Marionette	DEBUG	Resetting recommended pref dom.disable_beforeunload
+1581486620728	Marionette	DEBUG	Resetting recommended pref dom.push.connection.enabled
+1581486620728	Marionette	DEBUG	Resetting recommended pref privacy.trackingprotection.enabled
+1581486620728	Marionette	DEBUG	Resetting recommended pref security.certerrors.mitm.priming.enabled
+1581486620729	Marionette	DEBUG	Resetting recommended pref toolkit.cosmeticAnimations.enabled
+1581486620729	Marionette	INFO	Stopped listening on port 6713
+1581486620729	Marionette	DEBUG	Marionette stopped listening
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+ust the level by setting this preference, not by using the level setter
+1581486607574	Marionette	WARN	TLS certificate errors will be ignored for this session
+1581486609162	Marionette	INFO	Stopped listening on port 7250
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 108: Error: sendRemoveListener on closed conduit switchyomega@feliscatus.addons.mozilla.org.274877906964
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x37012C,name=PContent::Msg_DetachBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1581486700551	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\zhuwq\\AppData\\Local\\Temp\\rust_mozprofileF1zLlO"
+1581486701718	addons.webextension.switchyomega@feliscatus.addons.mozilla.org	WARN	Loading extension 'switchyomega@feliscatus.addons.mozilla.org': Reading manifest: Warning processing key: An unexpected property was found in the WebExtension manifest.
+1581486701718	addons.webextension.switchyomega@feliscatus.addons.mozilla.org	WARN	Loading extension 'switchyomega@feliscatus.addons.mozilla.org': Reading manifest: Warning processing options_page: An unexpected property was found in the WebExtension manifest.
+1581486702294	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Warning processing key: An unexpected property was found in the WebExtension manifest.
+1581486702294	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Warning processing options_page: An unexpected property was found in the WebExtension manifest.
+JavaScript warning: moz-extension://ed9222bb-0d9f-4ed1-8b94-b2125d577d69/js/omega_target.min.js, line 4906: unreachable code after return statement
+JavaScript warning: moz-extension://ed9222bb-0d9f-4ed1-8b94-b2125d577d69/js/omega_target.min.js, line 4906: unreachable code after return statement
+1581486702759	Marionette	INFO	Listening on port 7346
+Log warning: The log 'Services.Common.RESTRequest' is configured to use the preference 'services.common.log.logger.rest.request' - you must adjust the level by setting this preference, not by using the level setter
+1581486703194	Marionette	WARN	TLS certificate errors will be ignored for this session
+WebGL(000001C931123000)::ForceLoseContext
+WebGL(000001C93113C800)::ForceLoseContext
+1581486714212	Marionette	INFO	Stopped listening on port 7346
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 108: Error: sendRemoveListener on closed conduit switchyomega@feliscatus.addons.mozilla.org.274877906974
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x37012C,name=PContent::Msg_DetachBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1581486853095	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\zhuwq\\AppData\\Local\\Temp\\rust_mozprofilejqVPrm"
+1581486854280	addons.webextension.switchyomega@feliscatus.addons.mozilla.org	WARN	Loading extension 'switchyomega@feliscatus.addons.mozilla.org': Reading manifest: Warning processing key: An unexpected property was found in the WebExtension manifest.
+1581486854280	addons.webextension.switchyomega@feliscatus.addons.mozilla.org	WARN	Loading extension 'switchyomega@feliscatus.addons.mozilla.org': Reading manifest: Warning processing options_page: An unexpected property was found in the WebExtension manifest.
+1581486854999	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Warning processing key: An unexpected property was found in the WebExtension manifest.
+1581486854999	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Warning processing options_page: An unexpected property was found in the WebExtension manifest.
+JavaScript warning: moz-extension://ed9222bb-0d9f-4ed1-8b94-b2125d577d69/js/omega_target.min.js, line 4906: unreachable code after return statement
+JavaScript warning: moz-extension://ed9222bb-0d9f-4ed1-8b94-b2125d577d69/js/omega_target.min.js, line 4906: unreachable code after return statement
+1581486855576	Marionette	INFO	Listening on port 7475
+Log warning: The log 'Services.Common.RESTRequest' is configured to use the preference 'services.common.log.logger.rest.request' - you must adjust the level by setting this preference, not by using the level setter
+1581486855748	Marionette	WARN	TLS certificate errors will be ignored for this session
+WebGL(00000219F521B000)::ForceLoseContext
+WebGL(00000219F5223000)::ForceLoseContext
+1581486874432	Marionette	ERROR	[39] No reply from Marionette:Register
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 108: Error: sendRemoveListener on closed conduit switchyomega@feliscatus.addons.mozilla.org.274877906967
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x37012C,name=PContent::Msg_DetachBrowsingContext) Closed channel: cannot send/recv
+
+1581486875916	Marionette	INFO	Stopped listening on port 7475
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1581487170123	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\zhuwq\\AppData\\Local\\Temp\\rust_mozprofileHHRdRL"
+1581487171348	addons.webextension.switchyomega@feliscatus.addons.mozilla.org	WARN	Loading extension 'switchyomega@feliscatus.addons.mozilla.org': Reading manifest: Warning processing key: An unexpected property was found in the WebExtension manifest.
+1581487171348	addons.webextension.switchyomega@feliscatus.addons.mozilla.org	WARN	Loading extension 'switchyomega@feliscatus.addons.mozilla.org': Reading manifest: Warning processing options_page: An unexpected property was found in the WebExtension manifest.
+1581487171939	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Warning processing key: An unexpected property was found in the WebExtension manifest.
+1581487171939	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Warning processing options_page: An unexpected property was found in the WebExtension manifest.
+JavaScript warning: moz-extension://ed9222bb-0d9f-4ed1-8b94-b2125d577d69/js/omega_target.min.js, line 4906: unreachable code after return statement
+JavaScript warning: moz-extension://ed9222bb-0d9f-4ed1-8b94-b2125d577d69/js/omega_target.min.js, line 4906: unreachable code after return statement
+1581487172403	Marionette	INFO	Listening on port 7833
+Log warning: The log 'Services.Common.RESTRequest' is configured to use the preference 'services.common.log.logger.rest.request' - you must adjust the level by setting this preference, not by using the level setter
+1581487172754	Marionette	WARN	TLS certificate errors will be ignored for this session
+WebGL(00000264B1F33000)::ForceLoseContext
+WebGL(00000264B683B800)::ForceLoseContext
+1581487186051	Marionette	ERROR	[41] No reply from Marionette:Register
+1581487214566	Marionette	INFO	Stopped listening on port 7833
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 108: Error: sendRemoveListener on closed conduit switchyomega@feliscatus.addons.mozilla.org.274877906974
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x37012C,name=PContent::Msg_DetachBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1581487889339	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\zhuwq\\AppData\\Local\\Temp\\rust_mozprofileYRhHuq"
+1581487937080	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\zhuwq\\AppData\\Local\\Temp\\rust_mozprofileqOtP3L"
+1581487937877	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Warning processing key: An unexpected property was found in the WebExtension manifest.
+1581487937877	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Warning processing options_page: An unexpected property was found in the WebExtension manifest.
+1581487938214	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581487938235	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581487938236	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581487938236	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581487938236	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1581487938432	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Warning processing key: An unexpected property was found in the WebExtension manifest.
+1581487938432	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Warning processing options_page: An unexpected property was found in the WebExtension manifest.
+1581487938789	addons.webextension.switchyomega@feliscatus.addons.mozilla.org	WARN	Loading extension 'switchyomega@feliscatus.addons.mozilla.org': Reading manifest: Warning processing key: An unexpected property was found in the WebExtension manifest.
+1581487938790	addons.webextension.switchyomega@feliscatus.addons.mozilla.org	WARN	Loading extension 'switchyomega@feliscatus.addons.mozilla.org': Reading manifest: Warning processing options_page: An unexpected property was found in the WebExtension manifest.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1581487939805	Marionette	INFO	Listening on port 8707
+Log warning: The log 'Services.Common.RESTRequest' is configured to use the preference 'services.common.log.logger.rest.request' - you must adjust the level by setting this preference, not by using the level setter
+JavaScript warning: moz-extension://ed9222bb-0d9f-4ed1-8b94-b2125d577d69/js/omega_target.min.js, line 4906: unreachable code after return statement
+JavaScript warning: moz-extension://ed9222bb-0d9f-4ed1-8b94-b2125d577d69/js/omega_target.min.js, line 4906: unreachable code after return statement
+1581487940215	Marionette	WARN	TLS certificate errors will be ignored for this session
+WebGL(000001EDFFC16800)::ForceLoseContext
+WebGL(000001ED82722800)::ForceLoseContext
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 108: Error: sendRemoveListener on closed conduit switchyomega@feliscatus.addons.mozilla.org.412316860436
+1581488001735	Marionette	INFO	Stopped listening on port 8707
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1581488048556	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\zhuwq\\AppData\\Local\\Temp\\rust_mozprofilewAQRYV"
+1581488049331	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Warning processing key: An unexpected property was found in the WebExtension manifest.
+1581488049331	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Warning processing options_page: An unexpected property was found in the WebExtension manifest.
+1581488049686	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581488049706	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581488049707	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581488049707	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581488049707	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1581488049891	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Warning processing key: An unexpected property was found in the WebExtension manifest.
+1581488049891	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Warning processing options_page: An unexpected property was found in the WebExtension manifest.
+1581488050230	addons.webextension.switchyomega@feliscatus.addons.mozilla.org	WARN	Loading extension 'switchyomega@feliscatus.addons.mozilla.org': Reading manifest: Warning processing key: An unexpected property was found in the WebExtension manifest.
+1581488050230	addons.webextension.switchyomega@feliscatus.addons.mozilla.org	WARN	Loading extension 'switchyomega@feliscatus.addons.mozilla.org': Reading manifest: Warning processing options_page: An unexpected property was found in the WebExtension manifest.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1581488051199	Marionette	INFO	Listening on port 8822
+Log warning: The log 'Services.Common.RESTRequest' is configured to use the preference 'services.common.log.logger.rest.request' - you must adjust the level by setting this preference, not by using the level setter
+JavaScript warning: moz-extension://ed9222bb-0d9f-4ed1-8b94-b2125d577d69/js/omega_target.min.js, line 4906: unreachable code after return statement
+JavaScript warning: moz-extension://ed9222bb-0d9f-4ed1-8b94-b2125d577d69/js/omega_target.min.js, line 4906: unreachable code after return statement
+1581488051686	Marionette	WARN	TLS certificate errors will be ignored for this session
+WebGL(0000029AE8E18000)::ForceLoseContext
+WebGL(0000029AE8E1E800)::ForceLoseContext
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 108: Error: sendRemoveListener on closed conduit switchyomega@feliscatus.addons.mozilla.org.412316860436
+1581488101063	Marionette	INFO	Stopped listening on port 8822
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1581488115050	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\zhuwq\\AppData\\Local\\Temp\\rust_mozprofile9DT8l4"
+1581488115808	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Warning processing key: An unexpected property was found in the WebExtension manifest.
+1581488115808	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Warning processing options_page: An unexpected property was found in the WebExtension manifest.
+1581488116144	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581488116163	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581488116163	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581488116164	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581488116164	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1581488116350	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Warning processing key: An unexpected property was found in the WebExtension manifest.
+1581488116350	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Warning processing options_page: An unexpected property was found in the WebExtension manifest.
+1581488116695	addons.webextension.switchyomega@feliscatus.addons.mozilla.org	WARN	Loading extension 'switchyomega@feliscatus.addons.mozilla.org': Reading manifest: Warning processing key: An unexpected property was found in the WebExtension manifest.
+1581488116695	addons.webextension.switchyomega@feliscatus.addons.mozilla.org	WARN	Loading extension 'switchyomega@feliscatus.addons.mozilla.org': Reading manifest: Warning processing options_page: An unexpected property was found in the WebExtension manifest.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1581488117637	Marionette	INFO	Listening on port 8911
+Log warning: The log 'Services.Common.RESTRequest' is configured to use the preference 'services.common.log.logger.rest.request' - you must adjust the level by setting this preference, not by using the level setter
+1581488117689	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: moz-extension://ed9222bb-0d9f-4ed1-8b94-b2125d577d69/js/omega_target.min.js, line 4906: unreachable code after return statement
+JavaScript warning: moz-extension://ed9222bb-0d9f-4ed1-8b94-b2125d577d69/js/omega_target.min.js, line 4906: unreachable code after return statement
+WebGL(00000228182EA000)::ForceLoseContext
+WebGL(00000228182F2000)::ForceLoseContext
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 196: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 196: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 179: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 196}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 196}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 108: Error: sendRemoveListener on closed conduit switchyomega@feliscatus.addons.mozilla.org.412316860437
+1581488135389	Sync.ErrorHandler	ERROR	Some engines did not sync correctly.
+1581488135587	Marionette	INFO	Stopped listening on port 8911
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1581488187357	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\zhuwq\\AppData\\Local\\Temp\\rust_mozprofilevd0HeT"
+1581488188174	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Warning processing key: An unexpected property was found in the WebExtension manifest.
+1581488188174	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Warning processing options_page: An unexpected property was found in the WebExtension manifest.
+1581488188535	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581488188555	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581488188556	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581488188556	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581488188556	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1581488188760	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Warning processing key: An unexpected property was found in the WebExtension manifest.
+1581488188761	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Warning processing options_page: An unexpected property was found in the WebExtension manifest.
+1581488189116	addons.webextension.switchyomega@feliscatus.addons.mozilla.org	WARN	Loading extension 'switchyomega@feliscatus.addons.mozilla.org': Reading manifest: Warning processing key: An unexpected property was found in the WebExtension manifest.
+1581488189116	addons.webextension.switchyomega@feliscatus.addons.mozilla.org	WARN	Loading extension 'switchyomega@feliscatus.addons.mozilla.org': Reading manifest: Warning processing options_page: An unexpected property was found in the WebExtension manifest.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1581488190111	Marionette	INFO	Listening on port 8999
+Log warning: The log 'Services.Common.RESTRequest' is configured to use the preference 'services.common.log.logger.rest.request' - you must adjust the level by setting this preference, not by using the level setter
+JavaScript warning: moz-extension://ed9222bb-0d9f-4ed1-8b94-b2125d577d69/js/omega_target.min.js, line 4906: unreachable code after return statement
+JavaScript warning: moz-extension://ed9222bb-0d9f-4ed1-8b94-b2125d577d69/js/omega_target.min.js, line 4906: unreachable code after return statement
+1581488190490	Marionette	WARN	TLS certificate errors will be ignored for this session
+WebGL(000001DF09A19000)::ForceLoseContext
+WebGL(000001DF09A20800)::ForceLoseContext
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 196: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 196: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 179: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 196}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 196}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+WebGL(000001DF09A16000)::ForceLoseContext
+WebGL(000001DF0BD19800)::ForceLoseContext
+1581488218671	Marionette	INFO	Stopped listening on port 8999
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 108: Error: sendRemoveListener on closed conduit switchyomega@feliscatus.addons.mozilla.org.412316860448
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x580011,name=PHttpChannel::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1581488361351	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\zhuwq\\AppData\\Local\\Temp\\rust_mozprofilevFCYAu"
+1581488362133	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Warning processing key: An unexpected property was found in the WebExtension manifest.
+1581488362133	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Warning processing options_page: An unexpected property was found in the WebExtension manifest.
+1581488362531	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Warning processing key: An unexpected property was found in the WebExtension manifest.
+1581488362531	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Warning processing options_page: An unexpected property was found in the WebExtension manifest.
+1581488362878	addons.webextension.switchyomega@feliscatus.addons.mozilla.org	WARN	Loading extension 'switchyomega@feliscatus.addons.mozilla.org': Reading manifest: Warning processing key: An unexpected property was found in the WebExtension manifest.
+1581488362878	addons.webextension.switchyomega@feliscatus.addons.mozilla.org	WARN	Loading extension 'switchyomega@feliscatus.addons.mozilla.org': Reading manifest: Warning processing options_page: An unexpected property was found in the WebExtension manifest.
+1581488363985	Marionette	INFO	Listening on port 9250
+JavaScript warning: moz-extension://ed9222bb-0d9f-4ed1-8b94-b2125d577d69/js/omega_target.min.js, line 4906: unreachable code after return statement
+JavaScript warning: moz-extension://ed9222bb-0d9f-4ed1-8b94-b2125d577d69/js/omega_target.min.js, line 4906: unreachable code Log warning: The log 'Services.Common.RESTRequest' is configured to use the preference 'services.common.log.logger.rest.request' - you must adjust the level by setting this preference, not by using the level setter
+after return statement
+1581488364483	Marionette	WARN	TLS certificate errors will be ignored for this session
+WebGL(000002ECE90E7000)::ForceLoseContext
+WebGL(000002ECE90EF800)::ForceLoseContext
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 196: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 196: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 179: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 196}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 196}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+WebGL(000002ECD8C9F000)::ForceLoseContext
+WebGL(000002ECED812000)::ForceLoseContext
+1581488392149	Marionette	INFO	Stopped listening on port 9250
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 108: Error: sendRemoveListener on closed conduit switchyomega@feliscatus.addons.mozilla.org.274877906967
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x370135,name=PContent::Msg_DetachBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1581488421583	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\zhuwq\\AppData\\Local\\Temp\\rust_mozprofile5E3D0j"
+1581488422332	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Warning processing key: An unexpected property was found in the WebExtension manifest.
+1581488422332	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Warning processing options_page: An unexpected property was found in the WebExtension manifest.
+1581488422722	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Warning processing key: An unexpected property was found in the WebExtension manifest.
+1581488422722	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Warning processing options_page: An unexpected property was found in the WebExtension manifest.
+1581488423057	addons.webextension.switchyomega@feliscatus.addons.mozilla.org	WARN	Loading extension 'switchyomega@feliscatus.addons.mozilla.org': Reading manifest: Warning processing key: An unexpected property was found in the WebExtension manifest.
+1581488423057	addons.webextension.switchyomega@feliscatus.addons.mozilla.org	WARN	Loading extension 'switchyomega@feliscatus.addons.mozilla.org': Reading manifest: Warning processing options_page: An unexpected property was found in the WebExtension manifest.
+1581488424133	Marionette	INFO	Listening on port 9327
+Log warning: The log 'Services.Common.RESTRequest' is configured to use the preference 'services.common.log.logger.rest.request' - you must adjust the level by setting this preference, not by using the level setter
+JavaScript warning: moz-extension://ed9222bb-0d9f-4ed1-8b94-b2125d577d69/js/omega_target.min.js, line 4906: unreachable code after return statement
+JavaScript warning: moz-extension://ed9222bb-0d9f-4ed1-8b94-b2125d577d69/js/omega_target.min.js, line 4906: unreachable code after return statement
+1581488424216	Marionette	WARN	TLS certificate errors will be ignored for this session
+WebGL(000001E60DE5A000)::ForceLoseContext
+WebGL(000001E612523000)::ForceLoseContext
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 196: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 196: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 179: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 196}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 196}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+WebGL(000001E60DEC4800)::ForceLoseContext
+WebGL(000001E612537800)::ForceLoseContext
+1581488457897	Marionette	INFO	Stopped listening on port 9327
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 108: Error: sendRemoveListener on closed conduit switchyomega@feliscatus.addons.mozilla.org.274877906976
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x370135,name=PContent::Msg_DetachBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1581488998175	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\zhuwq\\AppData\\Local\\Temp\\rust_mozprofileqeDKV4"
+1581488998943	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Warning processing key: An unexpected property was found in the WebExtension manifest.
+1581488998943	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Warning processing options_page: An unexpected property was found in the WebExtension manifest.
+1581488999345	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Warning processing key: An unexpected property was found in the WebExtension manifest.
+1581488999345	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Warning processing options_page: An unexpected property was found in the WebExtension manifest.
+1581488999698	addons.webextension.switchyomega@feliscatus.addons.mozilla.org	WARN	Loading extension 'switchyomega@feliscatus.addons.mozilla.org': Reading manifest: Warning processing key: An unexpected property was found in the WebExtension manifest.
+1581488999698	addons.webextension.switchyomega@feliscatus.addons.mozilla.org	WARN	Loading extension 'switchyomega@feliscatus.addons.mozilla.org': Reading manifest: Warning processing options_page: An unexpected property was found in the WebExtension manifest.
+1581489000847	Marionette	INFO	Listening on port 9696
+Log warning: The log 'Services.Common.RESTRequest' is configured to use the preference 'services.common.log.logger.rest.request' - you must adjust the level by setting this preference, not by using the level setter
+JavaScript warning: moz-extension://ed9222bb-0d9f-4ed1-8b94-b2125d577d69/js/omega_target.min.js, line 4906: unreachable code after return statement
+JavaScript warning: moz-extension://ed9222bb-0d9f-4ed1-8b94-b2125d577d69/js/omega_target.min.js, line 4906: unreachable code after return statement
+1581489001311	Marionette	WARN	TLS certificate errors will be ignored for this session
+WebGL(0000026335759800)::ForceLoseContext
+WebGL(00000263357EB000)::ForceLoseContext
+1581489095828	Marionette	ERROR	[39] No reply from Marionette:Register
+WebGL(0000026335753000)::ForceLoseContext
+WebGL(000002633A305800)::ForceLoseContext
+WebGL(000002633A31B800)::ForceLoseContext
+WebGL(000002633A321000)::ForceLoseContext
+WebGL(0000026335753800)::ForceLoseContext
+WebGL(00000263357D8000)::ForceLoseContext
+WebGL(000001DBA21E1800)::ForceLoseContext
+WebGL(000001DBA5F05800)::ForceLoseContext
+WebGL(0000026335442000)::ForceLoseContext
+WebGL(000002633A483800)::ForceLoseContext
+WebGL(000002633A482000)::ForceLoseContext
+WebGL(000002633A48C000)::ForceLoseContext
+JavaScript warning: moz-extension://ed9222bb-0d9f-4ed1-8b94-b2125d577d69/popup/js/profiles.js, line 118: unreachable code after return statement
+1581489240190	Marionette	ERROR	[49] No reply from Marionette:Register
+1581489241717	Marionette	ERROR	[51] No reply from Marionette:Register
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 108: Error: sendRemoveListener on closed conduit switchyomega@feliscatus.addons.mozilla.org.274877906959
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x580011,name=PHttpChannel::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x680029,name=PNecko::Msg_RemoveRequestContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x370135,name=PContent::Msg_DetachBrowsingContext) Closed channel: cannot send/recv
+
+1581489262055	Marionette	INFO	Stopped listening on port 9696
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1581489295211	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\zhuwq\\AppData\\Local\\Temp\\rust_mozprofileYvW9ER"
+1581489295994	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Warning processing key: An unexpected property was found in the WebExtension manifest.
+1581489295994	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Warning processing options_page: An unexpected property was found in the WebExtension manifest.
+1581489296392	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Warning processing key: An unexpected property was found in the WebExtension manifest.
+1581489296392	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Warning processing options_page: An unexpected property was found in the WebExtension manifest.
+1581489296732	addons.webextension.switchyomega@feliscatus.addons.mozilla.org	WARN	Loading extension 'switchyomega@feliscatus.addons.mozilla.org': Reading manifest: Warning processing key: An unexpected property was found in the WebExtension manifest.
+1581489296732	addons.webextension.switchyomega@feliscatus.addons.mozilla.org	WARN	Loading extension 'switchyomega@feliscatus.addons.mozilla.org': Reading manifest: Warning processing options_page: An unexpected property was found in the WebExtension manifest.
+JavaScript warning: moz-extensi1581489297874	Marionette	INFO	Listening on port 10011
+on://ed9222bb-0d9f-4ed1-8b94-b2125d577d69/js/omega_target.min.js, line 4906: unreachable code after return statement
+JavaScript warning: moz-extension://ed9222bb-0d9f-4ed1-8b94-b2125d577d69/js/omega_target.min.js, line 4906: unreachable code after return statement
+Log warning: The log 'Services.Common.RESTRequest' is configured to use the preference 'services.common.log.logger.rest.request' - you must adjust the level by setting this preference, not by using the level setter
+1581489298340	Marionette	WARN	TLS certificate errors will be ignored for this session
+1581489299716	Marionette	ERROR	[39] No reply from Marionette:Register
+WebGL(000001E01F857800)::ForceLoseContext
+WebGL(000001E01F8C3000)::ForceLoseContext
+WebGL(0000017CABFC9800)::ForceLoseContext
+WebGL(0000017CABFCE800)::ForceLoseContext
+WebGL(000001E00F5CE800)::ForceLoseContext
+WebGL(000001E01F8C5000)::ForceLoseContext
+WebGL(000001E01F851000)::ForceLoseContext
+WebGL(000001E0240BD800)::ForceLoseContext
+1581495895825	Marionette	ERROR	[68] No reply from Marionette:Register
+1581495895843	Marionette	ERROR	[70] No reply from Marionette:Register
+1581495895849	Marionette	ERROR	[72] No reply from Marionette:Register
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 108: Error: sendRemoveListener on closed conduit switchyomega@feliscatus.addons.mozilla.org.274877906976
+1581495896883	Marionette	INFO	Stopped listening on port 10011
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+nknown>	WARN	Loading extension 'null': Reading manifest: Warning processing options_page: An unexpected property was found in the WebExtension manifest.
+1581489651970	addons.webextension.switchyomega@feliscatus.addons.mozilla.org	WARN	Loading extension 'switchyomega@feliscatus.addons.mozilla.org': Reading manifest: Warning processing key: An unexpected property was found in the WebExtension manifest.
+1581489651970	addons.webextension.switchyomega@feliscatus.addons.mozilla.org	WARN	Loading extension 'switchyomega@feliscatus.addons.mozilla.org': Reading manifest: Warning processing options_page: An unexpected property was found in the WebExtension manifest.
+JavaScript warning: moz-extension://ed9222bb-0d9f-4ed1-8b94-b2125d577d69/js/omega_target.min.js, line 4906: unreachable code after return statement
+1581489653001	Marionette	INFO	Listening on port 10355
+JavaScript warning: moz-extension://ed9222bb-0d9f-4ed1-8b94-b2125d577d69/js/omega_target.min.js, line 4906: unreachable code after return statement
+Log warning: The log 'Services.Common.RESTRequest' is configured to use the preference 'services.common.log.logger.rest.request' - you must adjust the level by setting this preference, not by using the level setter
+1581489653125	Marionette	WARN	TLS certificate errors will be ignored for this session
+WebGL(000001BFBA027000)::ForceLoseContext
+WebGL(000001BFBA030800)::ForceLoseContext
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 196: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 196: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 179: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 196}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 196}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+WebGL(000001BFA77CD000)::ForceLoseContext
+WebGL(000001BFBC292800)::ForceLoseContext
+WebGL(000001BFBC290800)::ForceLoseContext
+WebGL(000001BFBC2AD000)::ForceLoseContext
+WebGL(000001BFA77C8000)::ForceLoseContext
+WebGL(000001BFB7970800)::ForceLoseContext
+1581489696360	Marionette	INFO	Stopped listening on port 10355
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 108: Error: sendRemoveListener on closed conduit switchyomega@feliscatus.addons.mozilla.org.274877906967
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x370135,name=PContent::Msg_DetachBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1581489834977	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\zhuwq\\AppData\\Local\\Temp\\rust_mozprofile734wDF"
+1581489835453	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581489835846	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581489835846	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581489835846	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581489835846	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1581489837766	Marionette	INFO	Listening on port 10489
+1581489838120	Marionette	WARN	TLS certificate errors will be ignored for this session
+WebGL(000001CCC354D800)::ForceLoseContext
+WebGL(000001CCC5807800)::ForceLoseContext
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 196: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 196: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 179: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 196}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 196}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+WebGL(000001CCC5803800)::ForceLoseContext
+WebGL(000001CCC5809800)::ForceLoseContext
+JavaScript error: https://g.alicdn.com/??nextbox/ace-homepage-footer-list/0.0.70/index.js,nextbox/ace-homepage-footer-list/0.0.70/services.js, line 1: TypeError: c is undefined
+JavaScript error: https://account.aliyun.com/login/login.htm?oauth_callback=https%3A%2F%2Fhbr.console.aliyun.com%2F&lang=en#/cloud/hana?_k=test, line 127: TypeError: window.$ACE_BLOCK_RENDER is undefined
+WebGL(000001CCB7306000)::ForceLoseContext
+WebGL(000001CCC6934000)::ForceLoseContext
+WebGL(000001CCC693A800)::ForceLoseContext
+WebGL(000001CCC693F000)::ForceLoseContext
+WebGL(000001CCB73BF000)::ForceLoseContext
+WebGL(000001CCC60A7000)::ForceLoseContext
+1581489881700	Marionette	INFO	Stopped listening on port 10489
+WebGL(000001CCC6940800)::ForceLoseContext
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1581490013807	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\zhuwq\\AppData\\Local\\Temp\\rust_mozprofileA3zl73"
+1581490014214	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581490014581	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581490014581	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581490014581	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581490014581	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1581490016393	Marionette	INFO	Listening on port 10821
+1581490016437	Marionette	WARN	TLS certificate errors will be ignored for this session
+WebGL(000001ECF69D5800)::ForceLoseContext
+WebGL(000001ECF69D2000)::ForceLoseContext
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 196: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 196: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 179: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 196}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 196}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+WebGL(000001EC892CD000)::ForceLoseContext
+WebGL(000001EC8B598000)::ForceLoseContext
+1581490057554	Marionette	INFO	Stopped listening on port 10821
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1581495967289	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\zhuwq\\AppData\\Local\\Temp\\rust_mozprofiley2jjwo"
+1581495967707	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581495968072	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581495968073	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581495968073	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581495968073	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1581495969996	Marionette	INFO	Listening on port 15244
+1581495970423	Marionette	WARN	TLS certificate errors will be ignored for this session
+WebGL(000001F5150C5000)::ForceLoseContext
+WebGL(000001F517207000)::ForceLoseContext
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 196: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 196: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 179: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 196}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 196}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+WebGL(000001F5029C1800)::ForceLoseContext
+WebGL(000001F517207800)::ForceLoseContext
+1581495996634	Marionette	INFO	Stopped listening on port 15244
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1581496007983	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\zhuwq\\AppData\\Local\\Temp\\rust_mozprofilexhovc8"
+1581496008399	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581496008771	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581496008772	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581496008772	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581496008772	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1581496010717	Marionette	INFO	Listening on port 15343
+1581496011114	Marionette	WARN	TLS certificate errors will be ignored for this session
+WebGL(00000154889B1800)::ForceLoseContext
+WebGL(00000154889B6800)::ForceLoseContext
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 196: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 196: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 179: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 196}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 196}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+WebGL(00000154889B5800)::ForceLoseContext
+WebGL(00000154F44D4800)::ForceLoseContext
+1581496314067	Marionette	INFO	Stopped listening on port 15343
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+n.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581496285926	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581496285926	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581496285927	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581496285927	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1581496287868	Marionette	INFO	Listening on port 15667
+1581496288271	Marionette	WARN	TLS certificate errors will be ignored for this session
+WebGL(00000243EFD4F000)::ForceLoseContext
+WebGL(00000243F2007000)::ForceLoseContext
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 196: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 196: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 179: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 196}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 196}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+WebGL(00000243EFDDF800)::ForceLoseContext
+WebGL(00000243F25C7800)::ForceLoseContext
+WebGL(00000243F25CE800)::ForceLoseContext
+WebGL(00000243F25D5800)::ForceLoseContext
+1581496312597	Marionette	INFO	Stopped listening on port 15667
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1581496370969	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\zhuwq\\AppData\\Local\\Temp\\rust_mozprofileE7dwEb"
+1581496371390	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581496371748	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581496371748	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581496371748	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581496371748	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1581496373742	Marionette	INFO	Listening on port 15789
+1581496374100	Marionette	WARN	TLS certificate errors will be ignored for this session
+WebGL(000001A509F02800)::ForceLoseContext
+WebGL(000001A509F07000)::ForceLoseContext
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 196: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 196: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 179: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 196}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 196}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+WebGL(000001A509F11800)::ForceLoseContext
+WebGL(000001A50A7DC000)::ForceLoseContext
+WebGL(000001A50A7D6800)::ForceLoseContext
+WebGL(000001A50A7E2800)::ForceLoseContext
+WebGL(000001A513352800)::ForceLoseContext
+WebGL(000001A513357800)::ForceLoseContext
+1581496413517	Marionette	INFO	Stopped listening on port 15789
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1581496700456	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\zhuwq\\AppData\\Local\\Temp\\rust_mozprofileQ7vtDm"
+1581496700875	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581496701246	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581496701246	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581496701246	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581496701246	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1581496703187	Marionette	INFO	Listening on port 16216
+1581496703587	Marionette	WARN	TLS certificate errors will be ignored for this session
+WebGL(000001D302604800)::ForceLoseContext
+WebGL(000001D302609800)::ForceLoseContext
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 196: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 196: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 179: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 196}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 196}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+WebGL(000001D302DB0000)::ForceLoseContext
+WebGL(000001D302DBE000)::ForceLoseContext
+WebGL(000001D36DDC3800)::ForceLoseContext
+WebGL(000001D36DDD6000)::ForceLoseContext
+WebGL(000001D30BA9B800)::ForceLoseContext
+WebGL(000001D30BAA0800)::ForceLoseContext
+WebGL(000001D305B07000)::ForceLoseContext
+WebGL(000001D30F13F000)::ForceLoseContext
+WebGL(000001D302F57000)::ForceLoseContext
+WebGL(000001D30CF3F800)::ForceLoseContext
+1581496778409	Marionette	INFO	Stopped listening on port 16216
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1581496879489	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\zhuwq\\AppData\\Local\\Temp\\rust_mozprofilej44QyA"
+1581496879902	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581496880260	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581496880260	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581496880260	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581496880260	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1581496882095	Marionette	INFO	Listening on port 16502
+1581496882123	Marionette	WARN	TLS certificate errors will be ignored for this session
+WebGL(0000022632D4D000)::ForceLoseContext
+WebGL(0000022632DBD000)::ForceLoseContext
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 196: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 196: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 179: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 196}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 196}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+WebGL(0000022626BA2000)::ForceLoseContext
+WebGL(0000022626BAE000)::ForceLoseContext
+WebGL(0000022626BA9000)::ForceLoseContext
+WebGL(0000022626BAF000)::ForceLoseContext
+WebGL(0000022632DC2000)::ForceLoseContext
+WebGL(00000226350D8800)::ForceLoseContext
+WebGL(0000022632DBF800)::ForceLoseContext
+WebGL(00000226350DE800)::ForceLoseContext
+JavaScript error: https://g.alicdn.com/??nextbox/ace-homepage-footer-list/0.0.70/index.js,nextbox/ace-homepage-footer-list/0.0.70/services.js, line 1: TypeError: c is undefined
+JavaScript error: https://account.aliyun.com/login/login.htm?oauth_callback=https%3A%2F%2Fhbr.console.aliyun.com%2F&lang=en#/cloud/hana?_k=test, line 127: TypeError: window.$ACE_BLOCK_RENDER is undefined
+WebGL(0000022638BD3000)::ForceLoseContext
+WebGL(00000226397D7800)::ForceLoseContext
+WebGL(0000022626BA9000)::ForceLoseContext
+WebGL(0000022632D46000)::ForceLoseContext
+1581496942807	Marionette	INFO	Stopped listening on port 16502
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1581497194190	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\zhuwq\\AppData\\Local\\Temp\\rust_mozprofileQ3gGjv"
+1581497194624	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581497195017	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581497195017	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581497195017	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581497195017	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1581497197023	Marionette	INFO	Listening on port 17081
+1581497197321	Marionette	WARN	TLS certificate errors will be ignored for this session
+WebGL(0000021F4FDC2800)::ForceLoseContext
+WebGL(0000021F51C11000)::ForceLoseContext
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 196: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 196: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 179: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 196}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 196}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+WebGL(0000021F43B66000)::ForceLoseContext
+WebGL(0000021F43B79800)::ForceLoseContext
+WebGL(0000021F43B80000)::ForceLoseContext
+WebGL(0000021F4FDA9000)::ForceLoseContext
+WebGL(0000021F55DE4000)::ForceLoseContext
+WebGL(0000021F55DE8800)::ForceLoseContext
+WebGL(0000021F64408000)::ForceLoseContext
+WebGL(0000021F64414000)::ForceLoseContext
+1581497255960	Marionette	INFO	Stopped listening on port 17081
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1581497263591	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\zhuwq\\AppData\\Local\\Temp\\rust_mozprofileXIbs2g"
+1581497263999	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581497264365	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581497264365	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581497264365	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581497264365	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1581497266227	Marionette	INFO	Listening on port 17238
+1581497266721	Marionette	WARN	TLS certificate errors will be ignored for this session
+WebGL(000001FFD3033800)::ForceLoseContext
+WebGL(000001FFCED33800)::ForceLoseContext
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 196: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 196: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 179: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 196}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 196}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+WebGL(000001FFC5278800)::ForceLoseContext
+WebGL(000001FFC5288800)::ForceLoseContext
+WebGL(000001FFC528F000)::ForceLoseContext
+WebGL(000001FFD16E9800)::ForceLoseContext
+WebGL(000001FFBED91000)::ForceLoseContext
+WebGL(000001FFC5283000)::ForceLoseContext
+WebGL(000001FFD30AB000)::ForceLoseContext
+WebGL(000001FFD30B1000)::ForceLoseContext
+WebGL(000001FFD8665000)::ForceLoseContext
+WebGL(000001FFD8667800)::ForceLoseContext
+WebGL(000001FFC5273000)::ForceLoseContext
+WebGL(000001FFD8671800)::ForceLoseContext
+WebGL(000001FFDC93A000)::ForceLoseContext
+WebGL(000001FFDC93E800)::ForceLoseContext
+WebGL(000001FFDC69F800)::ForceLoseContext
+[Child 1636, Chrome_ChildThread] WARNING: pipe error: 232: file z:/task_1581105380/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 507
+1581497309145	Marionette	INFO	Stopped listening on port 17238
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1581497314684	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\zhuwq\\AppData\\Local\\Temp\\rust_mozprofileL6bHAs"
+1581497315103	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581497315474	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581497315474	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581497315475	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581497315475	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1581497317439	Marionette	INFO	Listening on port 17365
+1581497317816	Marionette	WARN	TLS certificate errors will be ignored for this session
+WebGL(0000023CD7FEE800)::ForceLoseContext
+WebGL(0000023CD9E17800)::ForceLoseContext
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 196: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 196: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 179: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 196}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 196}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+WebGL(0000023CCBEAC800)::ForceLoseContext
+WebGL(0000023CCBEB9800)::ForceLoseContext
+WebGL(0000023CCBEC1800)::ForceLoseContext
+WebGL(0000023CD7FEC000)::ForceLoseContext
+WebGL(0000023CE4870000)::ForceLoseContext
+WebGL(0000023CE4874800)::ForceLoseContext
+WebGL(0000023CE9BCE000)::ForceLoseContext
+WebGL(0000023CEA109000)::ForceLoseContext
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2243))
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2243))
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2243))
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1581499477697	Marionette	INFO	Stopped listening on port 17365
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581497568455	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581497568455	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581497568455	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1581497570431	Marionette	INFO	Listening on port 17699
+1581497570763	Marionette	WARN	TLS certificate errors will be ignored for this session
+WebGL(0000020F739E4000)::ForceLoseContext
+WebGL(0000020F7580E000)::ForceLoseContext
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 196: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 196: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 179: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 196}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 196}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+WebGL(0000020F67864000)::ForceLoseContext
+WebGL(0000020F6786F800)::ForceLoseContext
+WebGL(0000020F67878800)::ForceLoseContext
+WebGL(0000020F739E0800)::ForceLoseContext
+WebGL(0000020F0026A000)::ForceLoseContext
+WebGL(0000020F004A3000)::ForceLoseContext
+WebGL(0000020F0560E000)::ForceLoseContext
+WebGL(0000020F6786C000)::ForceLoseContext
+Handler function JSPropertyProvider threw an exception: TypeError: properties.shift(...).trim is not a function
+Stack: JSPropertyProvider@resource://devtools/shared/webconsole/js-property-provider.js:265:40
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:111:22
+autocomplete@resource://devtools/server/actors/webconsole.js:1390:40
+handler@resource://devtools/shared/protocol/Actor.js:154:37
+onPacket@resource://devtools/server/debugger-server-connection.js:380:58
+receiveMessage@resource://devtools/shared/transport/child-transport.js:66:16
+Line: 265, column: 40
+console.error: (new TypeError("properties.shift(...).trim is not a function", "resource://devtools/shared/webconsole/js-property-provider.js", 265))
+console.error: "Error while calling actor 'console's method 'autocomplete'" "result is undefined"
+console.error: "autocomplete@resource://devtools/server/actors/webconsole.js:1414:7\nhandler@resource://devtools/shared/protocol/Actor.js:154:37\nonPacket@resource://devtools/server/debugger-server-connection.js:380:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+console.error: "failed autocomplete" (new Error("Protocol error (unknownError): result is undefined", "resource://devtools/shared/protocol/Front.js", 276))
+Handler function JSPropertyProvider threw an exception: TypeError: properties.shift(...).trim is not a function
+Stack: JSPropertyProvider@resource://devtools/shared/webconsole/js-property-provider.js:265:40
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:111:22
+autocomplete@resource://devtools/server/actors/webconsole.js:1390:40
+handler@resource://devtools/shared/protocol/Actor.js:154:37
+onPacket@resource://devtools/server/debugger-server-connection.js:380:58
+receiveMessage@resource://devtools/shared/transport/child-transport.js:66:16
+Line: 265, column: 40
+console.error: (new TypeError("properties.shift(...).trim is not a function", "resource://devtools/shared/webconsole/js-property-provider.js", 265))
+console.error: "Error while calling actor 'console's method 'autocomplete'" "result is undefined"
+console.error: "autocomplete@resource://devtools/server/actors/webconsole.js:1414:7\nhandler@resource://devtools/shared/protocol/Actor.js:154:37\nonPacket@resource://devtools/server/debugger-server-connection.js:380:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+console.error: "failed autocomplete" (new Error("Protocol error (unknownError): result is undefined", "resource://devtools/shared/protocol/Front.js", 276))
+Handler function JSPropertyProvider threw an exception: TypeError: properties.shift(...).trim is not a function
+Stack: JSPropertyProvider@resource://devtools/shared/webconsole/js-property-provider.js:265:40
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:111:22
+autocomplete@resource://devtools/server/actors/webconsole.js:1390:40
+handler@resource://devtools/shared/protocol/Actor.js:154:37
+onPacket@resource://devtools/server/debugger-server-connection.js:380:58
+receiveMessage@resource://devtools/shared/transport/child-transport.js:66:16
+Line: 265, column: 40
+console.error: (new TypeError("properties.shift(...).trim is not a function", "resource://devtools/shared/webconsole/js-property-provider.js", 265))
+console.error: "Error while calling actor 'console's method 'autocomplete'" "result is undefined"
+console.error: "autocomplete@resource://devtools/server/actors/webconsole.js:1414:7\nhandler@resource://devtools/shared/protocol/Actor.js:154:37\nonPacket@resource://devtools/server/debugger-server-connection.js:380:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+console.error: "failed autocomplete" (new Error("Protocol error (unknownError): result is undefined", "resource://devtools/shared/protocol/Front.js", 276))
+Handler function JSPropertyProvider threw an exception: TypeError: properties.shift(...).trim is not a function
+Stack: JSPropertyProvider@resource://devtools/shared/webconsole/js-property-provider.js:265:40
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:111:22
+autocomplete@resource://devtools/server/actors/webconsole.js:1390:40
+handler@resource://devtools/shared/protocol/Actor.js:154:37
+onPacket@resource://devtools/server/debugger-server-connection.js:380:58
+receiveMessage@resource://devtools/shared/transport/child-transport.js:66:16
+Line: 265, column: 40
+console.error: (new TypeError("properties.shift(...).trim is not a function", "resource://devtools/shared/webconsole/js-property-provider.js", 265))
+console.error: "Error while calling actor 'console's method 'autocomplete'" "result is undefined"
+console.error: "autocomplete@resource://devtools/server/actors/webconsole.js:1414:7\nhandler@resource://devtools/shared/protocol/Actor.js:154:37\nonPacket@resource://devtools/server/debugger-server-connection.js:380:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+console.error: "failed autocomplete" (new Error("Protocol error (unknownError): result is undefined", "resource://devtools/shared/protocol/Front.js", 276))
+Handler function JSPropertyProvider threw an exception: TypeError: properties.shift(...).trim is not a function
+Stack: JSPropertyProvider@resource://devtools/shared/webconsole/js-property-provider.js:265:40
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:111:22
+autocomplete@resource://devtools/server/actors/webconsole.js:1390:40
+handler@resource://devtools/shared/protocol/Actor.js:154:37
+onPacket@resource://devtools/server/debugger-server-connection.js:380:58
+receiveMessage@resource://devtools/shared/transport/child-transport.js:66:16
+Line: 265, column: 40
+console.error: (new TypeError("properties.shift(...).trim is not a function", "resource://devtools/shared/webconsole/js-property-provider.js", 265))
+console.error: "Error while calling actor 'console's method 'autocomplete'" "result is undefined"
+console.error: "autocomplete@resource://devtools/server/actors/webconsole.js:1414:7\nhandler@resource://devtools/shared/protocol/Actor.js:154:37\nonPacket@resource://devtools/server/debugger-server-connection.js:380:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+console.error: "failed autocomplete" (new Error("Protocol error (unknownError): result is undefined", "resource://devtools/shared/protocol/Front.js", 276))
+Handler function JSPropertyProvider threw an exception: TypeError: properties.shift(...).trim is not a function
+Stack: JSPropertyProvider@resource://devtools/shared/webconsole/js-property-provider.js:265:40
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:111:22
+autocomplete@resource://devtools/server/actors/webconsole.js:1390:40
+handler@resource://devtools/shared/protocol/Actor.js:154:37
+onPacket@resource://devtools/server/debugger-server-connection.js:380:58
+receiveMessage@resource://devtools/shared/transport/child-transport.js:66:16
+Line: 265, column: 40
+console.error: (new TypeError("properties.shift(...).trim is not a function", "resource://devtools/shared/webconsole/js-property-provider.js", 265))
+console.error: "Error while calling actor 'console's method 'autocomplete'" "result is undefined"
+console.error: "autocomplete@resource://devtools/server/actors/webconsole.js:1414:7\nhandler@resource://devtools/shared/protocol/Actor.js:154:37\nonPacket@resource://devtools/server/debugger-server-connection.js:380:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+console.error: "failed autocomplete" (new Error("Protocol error (unknownError): result is undefined", "resource://devtools/shared/protocol/Front.js", 276))
+Handler function JSPropertyProvider threw an exception: TypeError: properties.shift(...).trim is not a function
+Stack: JSPropertyProvider@resource://devtools/shared/webconsole/js-property-provider.js:265:40
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:111:22
+autocomplete@resource://devtools/server/actors/webconsole.js:1390:40
+handler@resource://devtools/shared/protocol/Actor.js:154:37
+onPacket@resource://devtools/server/debugger-server-connection.js:380:58
+receiveMessage@resource://devtools/shared/transport/child-transport.js:66:16
+Line: 265, column: 40
+console.error: (new TypeError("properties.shift(...).trim is not a function", "resource://devtools/shared/webconsole/js-property-provider.js", 265))
+console.error: "Error while calling actor 'console's method 'autocomplete'" "result is undefined"
+console.error: "autocomplete@resource://devtools/server/actors/webconsole.js:1414:7\nhandler@resource://devtools/shared/protocol/Actor.js:154:37\nonPacket@resource://devtools/server/debugger-server-connection.js:380:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+console.error: "failed autocomplete" (new Error("Protocol error (unknownError): result is undefined", "resource://devtools/shared/protocol/Front.js", 276))
+Handler function JSPropertyProvider threw an exception: TypeError: properties.shift(...).trim is not a function
+Stack: JSPropertyProvider@resource://devtools/shared/webconsole/js-property-provider.js:265:40
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:111:22
+autocomplete@resource://devtools/server/actors/webconsole.js:1390:40
+handler@resource://devtools/shared/protocol/Actor.js:154:37
+onPacket@resource://devtools/server/debugger-server-connection.js:380:58
+receiveMessage@resource://devtools/shared/transport/child-transport.js:66:16
+Line: 265, column: 40
+console.error: (new TypeError("properties.shift(...).trim is not a function", "resource://devtools/shared/webconsole/js-property-provider.js", 265))
+console.error: "Error while calling actor 'console's method 'autocomplete'" "result is undefined"
+console.error: "autocomplete@resource://devtools/server/actors/webconsole.js:1414:7\nhandler@resource://devtools/shared/protocol/Actor.js:154:37\nonPacket@resource://devtools/server/debugger-server-connection.js:380:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+console.error: "failed autocomplete" (new Error("Protocol error (unknownError): result is undefined", "resource://devtools/shared/protocol/Front.js", 276))
+Handler function JSPropertyProvider threw an exception: TypeError: properties.shift(...).trim is not a function
+Stack: JSPropertyProvider@resource://devtools/shared/webconsole/js-property-provider.js:265:40
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:111:22
+autocomplete@resource://devtools/server/actors/webconsole.js:1390:40
+handler@resource://devtools/shared/protocol/Actor.js:154:37
+onPacket@resource://devtools/server/debugger-server-connection.js:380:58
+receiveMessage@resource://devtools/shared/transport/child-transport.js:66:16
+Line: 265, column: 40
+console.error: (new TypeError("properties.shift(...).trim is not a function", "resource://devtools/shared/webconsole/js-property-provider.js", 265))
+console.error: "Error while calling actor 'console's method 'autocomplete'" "result is undefined"
+console.error: "autocomplete@resource://devtools/server/actors/webconsole.js:1414:7\nhandler@resource://devtools/shared/protocol/Actor.js:154:37\nonPacket@resource://devtools/server/debugger-server-connection.js:380:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+console.error: "failed autocomplete" (new Error("Protocol error (unknownError): result is undefined", "resource://devtools/shared/protocol/Front.js", 276))
+Handler function JSPropertyProvider threw an exception: TypeError: properties.shift(...).trim is not a function
+Stack: JSPropertyProvider@resource://devtools/shared/webconsole/js-property-provider.js:265:40
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:111:22
+autocomplete@resource://devtools/server/actors/webconsole.js:1390:40
+handler@resource://devtools/shared/protocol/Actor.js:154:37
+onPacket@resource://devtools/server/debugger-server-connection.js:380:58
+receiveMessage@resource://devtools/shared/transport/child-transport.js:66:16
+Line: 265, column: 40
+console.error: (new TypeError("properties.shift(...).trim is not a function", "resource://devtools/shared/webconsole/js-property-provider.js", 265))
+console.error: "Error while calling actor 'console's method 'autocomplete'" "result is undefined"
+console.error: "autocomplete@resource://devtools/server/actors/webconsole.js:1414:7\nhandler@resource://devtools/shared/protocol/Actor.js:154:37\nonPacket@resource://devtools/server/debugger-server-connection.js:380:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+console.error: "failed autocomplete" (new Error("Protocol error (unknownError): result is undefined", "resource://devtools/shared/protocol/Front.js", 276))
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2243))
+Handler function JSPropertyProvider threw an exception: TypeError: properties.shift(...).trim is not a function
+Stack: JSPropertyProvider@resource://devtools/shared/webconsole/js-property-provider.js:265:40
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:111:22
+autocomplete@resource://devtools/server/actors/webconsole.js:1390:40
+handler@resource://devtools/shared/protocol/Actor.js:154:37
+onPacket@resource://devtools/server/debugger-server-connection.js:380:58
+receiveMessage@resource://devtools/shared/transport/child-transport.js:66:16
+Line: 265, column: 40
+console.error: (new TypeError("properties.shift(...).trim is not a function", "resource://devtools/shared/webconsole/js-property-provider.js", 265))
+console.error: "Error while calling actor 'console's method 'autocomplete'" "result is undefined"
+console.error: "autocomplete@resource://devtools/server/actors/webconsole.js:1414:7\nhandler@resource://devtools/shared/protocol/Actor.js:154:37\nonPacket@resource://devtools/server/debugger-server-connection.js:380:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+console.error: "failed autocomplete" (new Error("Protocol error (unknownError): result is undefined", "resource://devtools/shared/protocol/Front.js", 276))
+Handler function JSPropertyProvider threw an exception: TypeError: properties.shift(...).trim is not a function
+Stack: JSPropertyProvider@resource://devtools/shared/webconsole/js-property-provider.js:265:40
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:111:22
+autocomplete@resource://devtools/server/actors/webconsole.js:1390:40
+handler@resource://devtools/shared/protocol/Actor.js:154:37
+onPacket@resource://devtools/server/debugger-server-connection.js:380:58
+receiveMessage@resource://devtools/shared/transport/child-transport.js:66:16
+Line: 265, column: 40
+console.error: (new TypeError("properties.shift(...).trim is not a function", "resource://devtools/shared/webconsole/js-property-provider.js", 265))
+console.error: "Error while calling actor 'console's method 'autocomplete'" "result is undefined"
+console.error: "autocomplete@resource://devtools/server/actors/webconsole.js:1414:7\nhandler@resource://devtools/shared/protocol/Actor.js:154:37\nonPacket@resource://devtools/server/debugger-server-connection.js:380:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+console.error: "failed autocomplete" (new Error("Protocol error (unknownError): result is undefined", "resource://devtools/shared/protocol/Front.js", 276))
+Handler function JSPropertyProvider threw an exception: TypeError: properties.shift(...).trim is not a function
+Stack: JSPropertyProvider@resource://devtools/shared/webconsole/js-property-provider.js:265:40
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:111:22
+autocomplete@resource://devtools/server/actors/webconsole.js:1390:40
+handler@resource://devtools/shared/protocol/Actor.js:154:37
+onPacket@resource://devtools/server/debugger-server-connection.js:380:58
+receiveMessage@resource://devtools/shared/transport/child-transport.js:66:16
+Line: 265, column: 40
+console.error: (new TypeError("properties.shift(...).trim is not a function", "resource://devtools/shared/webconsole/js-property-provider.js", 265))
+console.error: "Error while calling actor 'console's method 'autocomplete'" "result is undefined"
+console.error: "autocomplete@resource://devtools/server/actors/webconsole.js:1414:7\nhandler@resource://devtools/shared/protocol/Actor.js:154:37\nonPacket@resource://devtools/server/debugger-server-connection.js:380:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+console.error: "failed autocomplete" (new Error("Protocol error (unknownError): result is undefined", "resource://devtools/shared/protocol/Front.js", 276))
+Handler function JSPropertyProvider threw an exception: TypeError: properties.shift(...).trim is not a function
+Stack: JSPropertyProvider@resource://devtools/shared/webconsole/js-property-provider.js:265:40
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:111:22
+autocomplete@resource://devtools/server/actors/webconsole.js:1390:40
+handler@resource://devtools/shared/protocol/Actor.js:154:37
+onPacket@resource://devtools/server/debugger-server-connection.js:380:58
+receiveMessage@resource://devtools/shared/transport/child-transport.js:66:16
+Line: 265, column: 40
+console.error: (new TypeError("properties.shift(...).trim is not a function", "resource://devtools/shared/webconsole/js-property-provider.js", 265))
+console.error: "Error while calling actor 'console's method 'autocomplete'" "result is undefined"
+console.error: "autocomplete@resource://devtools/server/actors/webconsole.js:1414:7\nhandler@resource://devtools/shared/protocol/Actor.js:154:37\nonPacket@resource://devtools/server/debugger-server-connection.js:380:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+console.error: "failed autocomplete" (new Error("Protocol error (unknownError): result is undefined", "resource://devtools/shared/protocol/Front.js", 276))
+Handler function JSPropertyProvider threw an exception: TypeError: properties.shift(...).trim is not a function
+Stack: JSPropertyProvider@resource://devtools/shared/webconsole/js-property-provider.js:265:40
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:111:22
+autocomplete@resource://devtools/server/actors/webconsole.js:1390:40
+handler@resource://devtools/shared/protocol/Actor.js:154:37
+onPacket@resource://devtools/server/debugger-server-connection.js:380:58
+receiveMessage@resource://devtools/shared/transport/child-transport.js:66:16
+Line: 265, column: 40
+console.error: (new TypeError("properties.shift(...).trim is not a function", "resource://devtools/shared/webconsole/js-property-provider.js", 265))
+console.error: "Error while calling actor 'console's method 'autocomplete'" "result is undefined"
+console.error: "autocomplete@resource://devtools/server/actors/webconsole.js:1414:7\nhandler@resource://devtools/shared/protocol/Actor.js:154:37\nonPacket@resource://devtools/server/debugger-server-connection.js:380:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+console.error: "failed autocomplete" (new Error("Protocol error (unknownError): result is undefined", "resource://devtools/shared/protocol/Front.js", 276))
+Handler function JSPropertyProvider threw an exception: TypeError: properties.shift(...).trim is not a function
+Stack: JSPropertyProvider@resource://devtools/shared/webconsole/js-property-provider.js:265:40
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:111:22
+autocomplete@resource://devtools/server/actors/webconsole.js:1390:40
+handler@resource://devtools/shared/protocol/Actor.js:154:37
+onPacket@resource://devtools/server/debugger-server-connection.js:380:58
+receiveMessage@resource://devtools/shared/transport/child-transport.js:66:16
+Line: 265, column: 40
+console.error: (new TypeError("properties.shift(...).trim is not a function", "resource://devtools/shared/webconsole/js-property-provider.js", 265))
+console.error: "Error while calling actor 'console's method 'autocomplete'" "result is undefined"
+console.error: "autocomplete@resource://devtools/server/actors/webconsole.js:1414:7\nhandler@resource://devtools/shared/protocol/Actor.js:154:37\nonPacket@resource://devtools/server/debugger-server-connection.js:380:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+console.error: "failed autocomplete" (new Error("Protocol error (unknownError): result is undefined", "resource://devtools/shared/protocol/Front.js", 276))
+WebGL(0000020F004B3000)::ForceLoseContext
+WebGL(0000020F0560D000)::ForceLoseContext
+WebGL(0000020F0561A800)::ForceLoseContext
+WebGL(0000020F0773C000)::ForceLoseContext
+WebGL(0000020F01AA7800)::ForceLoseContext
+WebGL(0000020F01AB6800)::ForceLoseContext
+1581499475916	Marionette	INFO	Stopped listening on port 17699
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1581499487479	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\zhuwq\\AppData\\Local\\Temp\\rust_mozprofileNo1GWe"
+1581499487900	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581499488274	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581499488274	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581499488274	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581499488274	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1581499490313	Marionette	INFO	Listening on port 19860
+1581499490613	Marionette	WARN	TLS certificate errors will be ignored for this session
+WebGL(0000025D64517800)::ForceLoseContext
+WebGL(0000025D64518000)::ForceLoseContext
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 196: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 196: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 179: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 196}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 196}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+WebGL(0000025D50092000)::ForceLoseContext
+WebGL(0000025D64BB0800)::ForceLoseContext
+WebGL(0000025D64BB7000)::ForceLoseContext
+WebGL(0000025D64BBC800)::ForceLoseContext
+WebGL(0000025D6ED3B000)::ForceLoseContext
+WebGL(0000025D6ED41000)::ForceLoseContext
+WebGL(0000025D75F59000)::ForceLoseContext
+WebGL(0000025D75F65800)::ForceLoseContext
+WebGL(0000025D64BBE000)::ForceLoseContext
+WebGL(0000025D68308800)::ForceLoseContext
+WebGL(0000025D62650800)::ForceLoseContext
+WebGL(0000025D626CF800)::ForceLoseContext
+WebGL(0000025D626D6800)::ForceLoseContext
+WebGL(0000025D64BB2800)::ForceLoseContext
+WebGL(0000025D04357800)::ForceLoseContext
+WebGL(0000025D0435E000)::ForceLoseContext
+JavaScript error: https://fecs.console.aliyun.com/api/topbar/showRegionList?callback=jQuery331003905060629268531_1581500926483&regionIds=cn-hangzhou%2Cap-southeast-5%2Cap-southeast-2%2Cap-southeast-1%2Ccn-hongkong%2Ccn-shenzhen%2Ccn-huhehaote%2Ccn-zhangjiakou%2Ccn-beijing%2Ccn-qingdao%2Ccn-shanghai&_=1581500926484, line 1: ReferenceError: jQuery331003905060629268531_1581500926483 is not defined
+JavaScript error: https://fecs.console.aliyun.com/api/topbar/showRegionList?callback=jQuery331003905060629268531_1581500926481&regionIds=cn-hangzhou%2Cap-southeast-5%2Cap-southeast-2%2Cap-southeast-1%2Ccn-hongkong%2Ccn-shenzhen%2Ccn-huhehaote%2Ccn-zhangjiakou%2Ccn-beijing%2Ccn-qingdao%2Ccn-shanghai&_=1581500926485, line 1: ReferenceError: jQuery331003905060629268531_1581500926481 is not defined
+Handler function JSPropertyProvider threw an exception: TypeError: properties.shift(...).trim is not a function
+Stack: JSPropertyProvider@resource://devtools/shared/webconsole/js-property-provider.js:265:40
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:111:22
+autocomplete@resource://devtools/server/actors/webconsole.js:1390:40
+handler@resource://devtools/shared/protocol/Actor.js:154:37
+onPacket@resource://devtools/server/debugger-server-connection.js:380:58
+receiveMessage@resource://devtools/shared/transport/child-transport.js:66:16
+Line: 265, column: 40
+console.error: (new TypeError("properties.shift(...).trim is not a function", "resource://devtools/shared/webconsole/js-property-provider.js", 265))
+console.error: "Error while calling actor 'console's method 'autocomplete'" "result is undefined"
+console.error: "autocomplete@resource://devtools/server/actors/webconsole.js:1414:7\nhandler@resource://devtools/shared/protocol/Actor.js:154:37\nonPacket@resource://devtools/server/debugger-server-connection.js:380:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+console.error: "failed autocomplete" (new Error("Protocol error (unknownError): result is undefined", "resource://devtools/shared/protocol/Front.js", 276))
+Handler function JSPropertyProvider threw an exception: TypeError: properties.shift(...).trim is not a function
+Stack: JSPropertyProvider@resource://devtools/shared/webconsole/js-property-provider.js:265:40
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:111:22
+autocomplete@resource://devtools/server/actors/webconsole.js:1390:40
+handler@resource://devtools/shared/protocol/Actor.js:154:37
+onPacket@resource://devtools/server/debugger-server-connection.js:380:58
+receiveMessage@resource://devtools/shared/transport/child-transport.js:66:16
+Line: 265, column: 40
+console.error: (new TypeError("properties.shift(...).trim is not a function", "resource://devtools/shared/webconsole/js-property-provider.js", 265))
+console.error: "Error while calling actor 'console's method 'autocomplete'" "result is undefined"
+console.error: "autocomplete@resource://devtools/server/actors/webconsole.js:1414:7\nhandler@resource://devtools/shared/protocol/Actor.js:154:37\nonPacket@resource://devtools/server/debugger-server-connection.js:380:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+console.error: "failed autocomplete" (new Error("Protocol error (unknownError): result is undefined", "resource://devtools/shared/protocol/Front.js", 276))
+Handler function JSPropertyProvider threw an exception: TypeError: properties.shift(...).trim is not a function
+Stack: JSPropertyProvider@resource://devtools/shared/webconsole/js-property-provider.js:265:40
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:111:22
+autocomplete@resource://devtools/server/actors/webconsole.js:1390:40
+handler@resource://devtools/shared/protocol/Actor.js:154:37
+onPacket@resource://devtools/server/debugger-server-connection.js:380:58
+receiveMessage@resource://devtools/shared/transport/child-transport.js:66:16
+Line: 265, column: 40
+console.error: (new TypeError("properties.shift(...).trim is not a function", "resource://devtools/shared/webconsole/js-property-provider.js", 265))
+console.error: "Error while calling actor 'console's method 'autocomplete'" "result is undefined"
+console.error: "autocomplete@resource://devtools/server/actors/webconsole.js:1414:7\nhandler@resource://devtools/shared/protocol/Actor.js:154:37\nonPacket@resource://devtools/server/debugger-server-connection.js:380:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+console.error: "failed autocomplete" (new Error("Protocol error (unknownError): result is undefined", "resource://devtools/shared/protocol/Front.js", 276))
+Handler function JSPropertyProvider threw an exception: TypeError: properties.shift(...).trim is not a function
+Stack: JSPropertyProvider@resource://devtools/shared/webconsole/js-property-provider.js:265:40
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:111:22
+autocomplete@resource://devtools/server/actors/webconsole.js:1390:40
+handler@resource://devtools/shared/protocol/Actor.js:154:37
+onPacket@resource://devtools/server/debugger-server-connection.js:380:58
+receiveMessage@resource://devtools/shared/transport/child-transport.js:66:16
+Line: 265, column: 40
+console.error: (new TypeError("properties.shift(...).trim is not a function", "resource://devtools/shared/webconsole/js-property-provider.js", 265))
+console.error: "Error while calling actor 'console's method 'autocomplete'" "result is undefined"
+console.error: "autocomplete@resource://devtools/server/actors/webconsole.js:1414:7\nhandler@resource://devtools/shared/protocol/Actor.js:154:37\nonPacket@resource://devtools/server/debugger-server-connection.js:380:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+console.error: "failed autocomplete" (new Error("Protocol error (unknownError): result is undefined", "resource://devtools/shared/protocol/Front.js", 276))
+Handler function JSPropertyProvider threw an exception: TypeError: properties.shift(...).trim is not a function
+Stack: JSPropertyProvider@resource://devtools/shared/webconsole/js-property-provider.js:265:40
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:111:22
+autocomplete@resource://devtools/server/actors/webconsole.js:1390:40
+handler@resource://devtools/shared/protocol/Actor.js:154:37
+onPacket@resource://devtools/server/debugger-server-connection.js:380:58
+receiveMessage@resource://devtools/shared/transport/child-transport.js:66:16
+Line: 265, column: 40
+console.error: (new TypeError("properties.shift(...).trim is not a function", "resource://devtools/shared/webconsole/js-property-provider.js", 265))
+console.error: "Error while calling actor 'console's method 'autocomplete'" "result is undefined"
+console.error: "autocomplete@resource://devtools/server/actors/webconsole.js:1414:7\nhandler@resource://devtools/shared/protocol/Actor.js:154:37\nonPacket@resource://devtools/server/debugger-server-connection.js:380:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+console.error: "failed autocomplete" (new Error("Protocol error (unknownError): result is undefined", "resource://devtools/shared/protocol/Front.js", 276))
+Handler function JSPropertyProvider threw an exception: TypeError: properties.shift(...).trim is not a function
+Stack: JSPropertyProvider@resource://devtools/shared/webconsole/js-property-provider.js:265:40
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:111:22
+autocomplete@resource://devtools/server/actors/webconsole.js:1390:40
+handler@resource://devtools/shared/protocol/Actor.js:154:37
+onPacket@resource://devtools/server/debugger-server-connection.js:380:58
+receiveMessage@resource://devtools/shared/transport/child-transport.js:66:16
+Line: 265, column: 40
+console.error: (new TypeError("properties.shift(...).trim is not a function", "resource://devtools/shared/webconsole/js-property-provider.js", 265))
+console.error: "Error while calling actor 'console's method 'autocomplete'" "result is undefined"
+console.error: "autocomplete@resource://devtools/server/actors/webconsole.js:1414:7\nhandler@resource://devtools/shared/protocol/Actor.js:154:37\nonPacket@resource://devtools/server/debugger-server-connection.js:380:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+console.error: "failed autocomplete" (new Error("Protocol error (unknownError): result is undefined", "resource://devtools/shared/protocol/Front.js", 276))
+console.error: (new TypeError("this.nodeHierarchy[this.currentIndex] is undefined", "resource://devtools/client/inspector/breadcrumbs.js", 800))
+TypeError: this.nodeHierarchy[this.currentIndex] is undefined: scroll@resource://devtools/client/inspector/breadcrumbs.js:800:23
+emit@resource://devtools/shared/event-emitter.js:195:24
+emit@resource://devtools/shared/event-emitter.js:276:18
+onOverflow@resource://devtools/client/inspector/breadcrumbs.js:206:10
+
+[Child 21052, Chrome_ChildThread] WARNING: pipe error: 232: file z:/task_1581105380/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 507
+1581501835932	Marionette	INFO	Stopped listening on port 19860
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1581501856091	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\zhuwq\\AppData\\Local\\Temp\\rust_mozprofile9C2AQm"
+1581501856547	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581501856924	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581501856924	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581501856925	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581501856925	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1581501858846	Marionette	INFO	Listening on port 22216
+1581501859224	Marionette	WARN	TLS certificate errors will be ignored for this session
+WebGL(000001E9D0F2F800)::ForceLoseContext
+WebGL(000001E9D540E800)::ForceLoseContext
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 196: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 196: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 179: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 196}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 196}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+WebGL(000001E9D0F2C800)::ForceLoseContext
+WebGL(000001E9D78D8000)::ForceLoseContext
+WebGL(000001E9D78DD000)::ForceLoseContext
+WebGL(000001E9D78E2800)::ForceLoseContext
+WebGL(000001E9D3554000)::ForceLoseContext
+WebGL(000001E9C0E8A800)::ForceLoseContext
+WebGL(000001E9E8642000)::ForceLoseContext
+WebGL(000001E9E864C800)::ForceLoseContext
+[Child 22632, Chrome_ChildThread] WARNING: pipe error: 232: file z:/task_1581105380/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 507
+1581501947611	Marionette	INFO	Stopped listening on port 22216
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1581501972538	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\zhuwq\\AppData\\Local\\Temp\\rust_mozprofileMRZLaa"
+1581501972941	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581501973310	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581501973310	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581501973310	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581501973310	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1581501975240	Marionette	INFO	Listening on port 22447
+1581501975675	Marionette	WARN	TLS certificate errors will be ignored for this session
+WebGL(000001C593B02800)::ForceLoseContext
+WebGL(000001C593B07000)::ForceLoseContext
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 196: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 196: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 179: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 196}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 196}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+WebGL(000001C593B14000)::ForceLoseContext
+WebGL(000001C595FD8800)::ForceLoseContext
+WebGL(000001C595FE2000)::ForceLoseContext
+WebGL(000001C595FE6000)::ForceLoseContext
+WebGL(000001C5986E0800)::ForceLoseContext
+WebGL(000001C59D7D7800)::ForceLoseContext
+WebGL(000001C5A2C84000)::ForceLoseContext
+WebGL(000001C59A04D800)::ForceLoseContext
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1581503034551	Marionette	INFO	Stopped listening on port 22447
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+telemetry
+1581503033520	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581503033520	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1581503035593	Marionette	INFO	Listening on port 23858
+1581503035839	Marionette	WARN	TLS certificate errors will be ignored for this session
+WebGL(000001976A6DA800)::ForceLoseContext
+WebGL(000001976C506000)::ForceLoseContext
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 196: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 196: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 179: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 196}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 196}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+WebGL(0000019757F86000)::ForceLoseContext
+WebGL(000001975E654000)::ForceLoseContext
+WebGL(000001975E65B000)::ForceLoseContext
+WebGL(000001975E661000)::ForceLoseContext
+WebGL(000001976FFB2800)::ForceLoseContext
+WebGL(000001976FFB8000)::ForceLoseContext
+WebGL(000001977D2B0800)::ForceLoseContext
+WebGL(000001977D6DC000)::ForceLoseContext
+JavaScript error: resource:///actors/AboutReaderChild.jsm, line 95: NS_ERROR_UNEXPECTED: 
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x390001,name=PCookieService::Msg_SetCookieString) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x390001,name=PCookieService::Msg_SetCookieString) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x37011B,name=PContent::Msg_ReportContentBlockingLog) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x370135,name=PContent::Msg_DetachBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x370135,name=PContent::Msg_DetachBrowsingContext) Closed channel: cannot send/recv
+
+1581513524947	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\zhuwq\\AppData\\Local\\Temp\\rust_mozprofileKjppbi"
+1581513525433	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581513525844	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581513525844	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581513525844	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581513525844	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1581513528250	Marionette	INFO	Listening on port 1046
+1581513528584	Marionette	WARN	TLS certificate errors will be ignored for this session
+WebGL(000002160BD6D800)::ForceLoseContext
+WebGL(000002160BD72800)::ForceLoseContext
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 196: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 196: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 179: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 196}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 196}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+WebGL(000002160A3D4800)::ForceLoseContext
+WebGL(000002160C7E8800)::ForceLoseContext
+WebGL(000002160C7E7000)::ForceLoseContext
+WebGL(000002160C7F0800)::ForceLoseContext
+WebGL(0000021611983000)::ForceLoseContext
+WebGL(0000021611988000)::ForceLoseContext
+WebGL(00000216170C2000)::ForceLoseContext
+WebGL(000002160A3EA000)::ForceLoseContext
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1581514328172	Marionette	INFO	Stopped listening on port 1046
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581513930941	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581513930941	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581513930941	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1581513932814	Marionette	INFO	Listening on port 1596
+1581513932878	Marionette	WARN	TLS certificate errors will be ignored for this session
+WebGL(0000011FC160A800)::ForceLoseContext
+WebGL(0000011FC160D800)::ForceLoseContext
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 196: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 196: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 179: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 196}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 196}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+WebGL(0000011FB35D0800)::ForceLoseContext
+WebGL(0000011FB35D8800)::ForceLoseContext
+WebGL(0000011FB35DC800)::ForceLoseContext
+WebGL(0000011FB35E1800)::ForceLoseContext
+WebGL(0000011FC5228800)::ForceLoseContext
+WebGL(0000011FC522D800)::ForceLoseContext
+WebGL(0000011FC779B800)::ForceLoseContext
+WebGL(0000011FC77A0800)::ForceLoseContext
+[Parent 2032, Gecko_IOThread] WARNING: file z:/task_1581105380/build/src/ipc/chromium/src/base/process_util_win.cc, line 160
+[Parent 2032, Gecko_IOThread] WARNING: file z:/task_1581105380/build/src/ipc/chromium/src/base/process_util_win.cc, line 160
+1581519974754	Marionette	INFO	Stopped listening on port 1596
+mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581514335066	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581514335066	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581514335066	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581514335066	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1581514337162	Marionette	INFO	Listening on port 1941
+1581514337387	Marionette	WARN	TLS certificate errors will be ignored for this session
+WebGL(000001DB4F9E7800)::ForceLoseContext
+WebGL(000001DB51824000)::ForceLoseContext
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 196: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 196: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 179: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 196}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 196}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+WebGL(000001DB4F94D800)::ForceLoseContext
+WebGL(000001DB53BCA000)::ForceLoseContext
+WebGL(000001DB53BCF800)::ForceLoseContext
+WebGL(000001DB53BD5000)::ForceLoseContext
+WebGL(000001DB571E4800)::ForceLoseContext
+WebGL(000001DB5C27E800)::ForceLoseContext
+WebGL(000001DB638F1000)::ForceLoseContext
+WebGL(000001DB638F5000)::ForceLoseContext
+[Parent 9076, Gecko_IOThread] WARNING: file z:/task_1581105380/build/src/ipc/chromium/src/base/process_util_win.cc, line 160
+1581519974759	Marionette	INFO	Stopped listening on port 1941
+l\\Temp\\rust_mozprofileYd8DKw"
+1581514849339	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581514849705	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581514849705	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581514849705	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581514849705	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1581514851586	Marionette	INFO	Listening on port 2770
+1581514852040	Marionette	WARN	TLS certificate errors will be ignored for this session
+WebGL(000002C6F0CC5800)::ForceLoseContext
+WebGL(000002C6F2705800)::ForceLoseContext
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 196: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 196: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 179: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 196}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 196}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+WebGL(000002C6E4843000)::ForceLoseContext
+WebGL(000002C6E4848000)::ForceLoseContext
+WebGL(000002C6E483F800)::ForceLoseContext
+WebGL(000002C6E4851000)::ForceLoseContext
+WebGL(000002C6FC0F4800)::ForceLoseContext
+WebGL(000002C6E483B800)::ForceLoseContext
+WebGL(000002C6FF5E8000)::ForceLoseContext
+WebGL(000002C684974000)::ForceLoseContext
+1581519974948	Marionette	INFO	Stopped listening on port 2770
